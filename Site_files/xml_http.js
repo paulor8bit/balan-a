@@ -20,7 +20,7 @@ function updateMultiple(formUpd, callBack, userName, userPassword) {
                 if (callBack != undefined) callBack();
             } else if (xmlHttp.status == 401) alert("Error code 401: Unauthorized");
             else if (xmlHttp.status == 403) alert("Error code 403: Forbidden");
-            else if (xmlHttp.status == 404) console.log(':)');
+            else if (xmlHttp.status == 404) console.log(ValPoids.value);
             // else if (xmlHttp.status == 404) alert("Error code 404: URL not found!");
         }
     }
